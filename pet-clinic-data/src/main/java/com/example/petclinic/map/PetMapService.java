@@ -2,9 +2,11 @@ package com.example.petclinic.map;
 
 import com.example.petclinic.model.Pet;
 import com.example.petclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetMapService extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
     @Override
     public Pet findById(Long id) {
