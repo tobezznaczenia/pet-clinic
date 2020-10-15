@@ -6,9 +6,13 @@ com/example/petclinic/model/Owner.class
 com/example/petclinic/map/OwnerMapService.class
 com/example/petclinic/map/PetMapService.class
 com/example/petclinic/model/Vet.class
+com/example/petclinic/model/Visit.class
 com/example/petclinic/services/CrudService.class
+com/example/petclinic/model/Speciality.class
 com/example/petclinic/model/Pet.class
 com/example/petclinic/map/AbstractMapService.class
 com/example/petclinic/model/PetType.class
+com/example/petclinic/map/PetTypeMapService.class
 com/example/petclinic/services/OwnerService.class
 com/example/petclinic/services/PetService.class
+com/example/petclinic/services/PetTypeService.class

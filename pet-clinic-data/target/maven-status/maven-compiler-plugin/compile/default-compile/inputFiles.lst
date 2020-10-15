@@ -10,5 +10,9 @@
 /Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/map/AbstractMapService.java
 /Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/model/PetType.java
 /Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/services/PetService.java
+/Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/model/Visit.java
+/Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/services/PetTypeService.java
+/Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/map/PetTypeMapService.java
 /Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/services/OwnerService.java
+/Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/model/Speciality.java
 /Users/sansa/Documents/spring/spring-pet-clinic/pet-clinic/pet-clinic-data/src/main/java/com/example/petclinic/services/VetService.java
