@@ -49,6 +49,10 @@ public class PetController {
         ArrayList<String> collection = new ArrayList<>();
         collection.add(null);
         System.out.println(collection.size());
+        long zmienna = 1000000000;
+        int zmienna3 = 1000000000;
+        int zmienna2 = zmienna3 + (int) zmienna;
+        System.out.println(zmienna2);
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
