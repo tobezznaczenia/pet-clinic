@@ -48,6 +48,11 @@ public class PetController {
     public String initCreationForm(Owner owner, Model model) {
         //TODO
         String message = new String("hello ");
+        int [] a = {1, 2, 3, 4};
+        int sum = 0;
+        for (int i = 0; i <= a.length; i++) { // BAD
+            sum += a[i];
+        }
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
