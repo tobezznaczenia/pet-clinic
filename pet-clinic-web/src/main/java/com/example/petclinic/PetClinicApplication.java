@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PetClinicApplication {
-
+	private String metodka(){
+		System.out.println("metodka");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
