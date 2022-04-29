@@ -48,6 +48,7 @@ public class PetController {
     public String initCreationForm(Owner owner, Model model) {
         ArrayList<String> collection = new ArrayList<>();
         collection.add(null);
+        System.out.println(collection.size());
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
