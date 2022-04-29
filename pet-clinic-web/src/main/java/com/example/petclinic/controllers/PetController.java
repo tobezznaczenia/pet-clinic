@@ -46,6 +46,8 @@ public class PetController {
 
     @GetMapping("/pets/new")
     public String initCreationForm(Owner owner, Model model) {
+        ArrayList<String> collection = new ArrayList<>();
+        collection.add(null);
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
