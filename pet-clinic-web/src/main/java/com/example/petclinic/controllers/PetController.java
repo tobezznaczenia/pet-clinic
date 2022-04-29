@@ -46,13 +46,10 @@ public class PetController {
 
     @GetMapping("/pets/new")
     public String initCreationForm(Owner owner, Model model) {
-        ArrayList<String> collection = new ArrayList<>();
-        collection.add(null);
-        System.out.println(collection.size());
-        long zmienna = 1000000000;
-        int zmienna3 = 1000000000;
-        int zmienna2 = zmienna3 + (int) zmienna;
-        System.out.println(zmienna2);
+        //TODO
+        for (int i = 0; i <= a.length; i++) { // BAD
+          sum += a[i];
+        }
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
