@@ -47,9 +47,7 @@ public class PetController {
     @GetMapping("/pets/new")
     public String initCreationForm(Owner owner, Model model) {
         //TODO
-        for (int i = 0; i <= a.length; i++) { // BAD
-          sum += a[i];
-        }
+        String message = new String("hello ");
         Pet pet = new Pet();
         owner.getPets().add(pet);
         pet.setOwner(owner);
